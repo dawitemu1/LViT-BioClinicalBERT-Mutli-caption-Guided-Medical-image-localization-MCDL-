@@ -5,3 +5,8 @@ Weakly Supervised Multi.docx
 
 # Ignore Word temp files
 ~$*.docx
+.venv/
+__pycache__/
+.vscode/
+outputs/lvit_nomasks/models/
+output/lvit_masks/attention_maps/
