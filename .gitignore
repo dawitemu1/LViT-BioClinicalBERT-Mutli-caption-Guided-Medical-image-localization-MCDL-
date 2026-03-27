@@ -1,3 +1,10 @@
+# Ignore model checkpoints and large files
+outputs/lvit_nomasks/models/
+outputs/lvit_nomasks/attention_maps/
+**/*.pth
+**/*.pt
+**/*.ckpt
+
 # Ignore directories and files
 Total_cancer_image_caption/
 summery.docx
@@ -8,5 +15,3 @@ Weakly Supervised Multi.docx
 .venv/
 __pycache__/
 .vscode/
-outputs/lvit_nomasks/models/
-output/lvit_masks/attention_maps/
