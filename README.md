@@ -91,9 +91,11 @@ Look on the file direactor "Output/Lvit_nomasks/visualization"
 
 <img width="1934" height="788" alt="image" src="https://github.com/user-attachments/assets/fd800913-6dca-4b44-bfd7-d29735c1135e" />
 ---
+
 ---
-### Comprehensive Ablation Study: Component Analysis & Alignment Strategies
+## Comprehensive Ablation Study: Component Analysis & Alignment Strategies
 ---
+
 Table 1: Component Ablation Study (with Statistical Significance)
 
 | Variant               | Importance Correlation | Attention Focus Score | Classification Accuracy |
