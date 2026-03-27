@@ -127,11 +127,11 @@ Table 2: Alignment Strategy Comparison (with Statistical Significance)
 If you use this code or find our work helpful, please cite our paper:
 
 ```bibtex
-@inproceedings{emu2024lvit,
+@inproceedings{Dawit2026lvit-BioClincalBERT,
   title={Weakly Supervised Multi-Caption Guided Medical Image Localization with BioClinicalBERT},
-  author={Emu, Dawit},
+  author={Dawit, Vukosi, Tesfa, Munir},
   booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
-  year={2024}
+  year={2026}
 }
 ```
 
