@@ -1,0 +1,7 @@
+# Ignore directories and files
+Total_cancer_image_caption/
+summery.docx
+Weakly Supervised Multi.docx
+
+# Ignore Word temp files
+~$*.docx
