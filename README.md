@@ -48,7 +48,9 @@ pip install -r requirements.txt
 
 ```bash
 # Run the main training notebook
-jupyter notebook Pro_caption_image_highlight.ipynb
+Backup_1_Pro_caption_image_highlight - Copy_2.ipynb
+or
+Backup_1_Pro_caption_image_highlight - Copy_3.ipynb
 ```
 
 ---
