@@ -91,7 +91,9 @@ Look on the file direactor "Output/Lvit_nomasks/visualization"
 
 <img width="1934" height="788" alt="image" src="https://github.com/user-attachments/assets/fd800913-6dca-4b44-bfd7-d29735c1135e" />
 ---
+---
 ### Comprehensive Ablation Study: Component Analysis & Alignment Strategies
+---
 Table 1: Component Ablation Study (with Statistical Significance)
 
 | Variant               | Importance Correlation | Attention Focus Score | Classification Accuracy |
@@ -116,8 +118,9 @@ Table 2: Alignment Strategy Comparison (with Statistical Significance)
 | Alignment weight (alpha=0.7) | 0.9519 ± 0.0010        | 0.4969 ± 0.0032       | 0.4266 ± 0.1562         |
 | Alignment weight (alpha=1.0) | 0.9507 ± 0.0011        | 0.4968 ± 0.0033       | 0.4072 ± 0.1468         |
 ---
+---
 ## 📚 Citation
-
+---
 If you use this code or find our work helpful, please cite our paper:
 
 ```bibtex
