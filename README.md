@@ -73,14 +73,23 @@ jupyter notebook Pro_caption_image_highlight.ipynb
 
 Our method achieves competitive performance on medical image localization benchmarks:
 
-| Method | Localization Accuracy | IoU | Dice Score |
-|--------|----------------------|-----|------------|
-| Baseline | 65.2% | 0.42 | 0.58 |
-| **Ours (LViT + BioClinicalBERT)** | **78.4%** | **0.58** | **0.73** |
+## Weakly Supervised LViT Evaluation Results
+
+| Metric                         | Value   |
+|--------------------------------|--------:|
+| Attention Focus Score           | 0.5006  |
+| Caption Importance Correlation  | 0.9552  |
+| Attention Consistency           | 0.9999  |
+| Disease Classification Accuracy | 0.9811  |
+| Mean Disease Probability        | 0.5000  |
 
 See `outputs/lvit_nomasks/results/` for detailed ablation studies and visualizations.
 
 ---
+Look on the file direactor "Output/Lvit_nomasks/visualization"
+<img width="1990" height="1229" alt="image" src="https://github.com/user-attachments/assets/e7dce551-37d9-4cf8-bb69-9470d8ab25d7" />
+
+<img width="1934" height="788" alt="image" src="https://github.com/user-attachments/assets/fd800913-6dca-4b44-bfd7-d29735c1135e" />
 
 ## 📚 Citation
 
