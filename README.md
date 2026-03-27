@@ -1,6 +1,6 @@
 # LViT-BioClinicalBERT: Multi-Caption Guided Medical Image Localization
 
-[![Conference](https://img.shields.io/badge/NeurIPS-2024-blue)](https://neurips.cc/)
+[![Conference](https://img.shields.io/badge/NeurIPS-2026-blue)](https://neurips.cc/)
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 
