@@ -6,7 +6,7 @@
 
 > **Weakly Supervised Multi-Caption Guided Medical Image Localization with BioClinicalBERT**
 
-This repository contains the official implementation of our NeurIPS 2024 paper on weakly supervised medical image localization using multi-caption guidance and BioClinicalBERT.
+This repository contains the official implementation of our NeurIPS 2026 paper on weakly supervised medical image localization using multi-caption guidance and BioClinicalBERT.
 
 ---
 
@@ -90,6 +90,30 @@ Look on the file direactor "Output/Lvit_nomasks/visualization"
 <img width="1990" height="1229" alt="image" src="https://github.com/user-attachments/assets/e7dce551-37d9-4cf8-bb69-9470d8ab25d7" />
 
 <img width="1934" height="788" alt="image" src="https://github.com/user-attachments/assets/fd800913-6dca-4b44-bfd7-d29735c1135e" />
+### Comprehensive Ablation Study: Component Analysis & Alignment Strategies
+Table 1: Component Ablation Study (with Statistical Significance)
+
+| Variant               | Importance Correlation | Attention Focus Score | Classification Accuracy |
+| --------------------- | ---------------------- | --------------------- | ----------------------- |
+| Full model            | 0.9507 ± 0.0011        | 0.5017 ± 0.0007       | 0.5457 ± 0.1705         |
+| w/o importance module | 0.5000 ± 0.0000 ***    | 0.5019 ± 0.0008       | 0.6323 ± 0.1409         |
+| w/o consistency loss  | 0.9507 ± 0.0011        | 0.5199 ± 0.0125       | 0.5452 ± 0.1703         |
+| w/o sparsity loss     | 0.9507 ± 0.0011        | 0.5011 ± 0.0003       | 0.5447 ± 0.1706         |
+| Single caption only   | 0.5000 ± 0.0000 ***    | 0.5017 ± 0.0007       | 0.6264 ± 0.1722         |
+| Random caption order  | 0.9507 ± 0.0011        | 0.5016 ± 0.0006       | 0.5457 ± 0.1704         |
+
+
+Table 2: Alignment Strategy Comparison (with Statistical Significance)
+| Alignment Strategy           | Importance Correlation | Attention Focus Score | Classification Accuracy |
+| ---------------------------- | ---------------------- | --------------------- | ----------------------- |
+| Full model (Our Alignment)   | 0.9507 ± 0.0011        | 0.5017 ± 0.0007       | 0.5459 ± 0.1703         |
+| No alignment                 | 0.5000 ± 0.0000 ***    | 0.5019 ± 0.0008       | 0.6326 ± 0.1423         |
+| Cosine similarity            | 0.5798 ± 0.0492 ***    | 0.4972 ± 0.0032       | 0.4186 ± 0.1602         |
+| Contrastive loss             | 0.5641 ± 0.0493 ***    | 0.4975 ± 0.0034       | 0.4228 ± 0.1588         |
+| Alignment weight (alpha=0.1) | 0.9163 ± 0.0188        | 0.4972 ± 0.0032       | 0.4219 ± 0.1603         |
+| Alignment weight (alpha=0.3) | 0.9527 ± 0.0018        | 0.4971 ± 0.0032       | 0.4259 ± 0.1594         |
+| Alignment weight (alpha=0.7) | 0.9519 ± 0.0010        | 0.4969 ± 0.0032       | 0.4266 ± 0.1562         |
+| Alignment weight (alpha=1.0) | 0.9507 ± 0.0011        | 0.4968 ± 0.0033       | 0.4072 ± 0.1468         |
 
 ## 📚 Citation
 
