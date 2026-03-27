@@ -73,7 +73,7 @@ jupyter notebook Pro_caption_image_highlight.ipynb
 
 Our method achieves competitive performance on medical image localization benchmarks:
 
-## Weakly Supervised LViT Evaluation Results
+## Weakly Supervised LViT-BioClininaclBERT Evaluation Results
 
 | Metric                         | Value   |
 |--------------------------------|--------:|
