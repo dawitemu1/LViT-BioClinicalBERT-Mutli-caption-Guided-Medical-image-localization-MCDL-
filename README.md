@@ -121,6 +121,16 @@ Table 2: Alignment Strategy Comparison (with Statistical Significance)
 | Alignment weight (alpha=0.7) | 0.9519 ± 0.0010        | 0.4969 ± 0.0032       | 0.4266 ± 0.1562         |
 | Alignment weight (alpha=1.0) | 0.9507 ± 0.0011        | 0.4968 ± 0.0033       | 0.4072 ± 0.1468         |
 ---
+## Statistical Significance Key
+
+The following table summarizes statistical significance levels used throughout the analyses
+| Symbol      | Meaning            | p-value range |
+| ----------- | ------------------ | ------------- |
+| ***         | Highly significant | (p < 0.001)   |
+| **          | Very significant   | (p < 0.01)    |
+| *           | Significant        | (p < 0.05)    |
+| (no symbol) | Not significant    | (p \geq 0.05) |
+
 ---
 ## 📚 Citation
 ---
