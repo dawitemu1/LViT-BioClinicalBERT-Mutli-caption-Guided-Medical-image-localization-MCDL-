@@ -58,7 +58,7 @@ Backup_1_Pro_caption_image_highlight - Copy_3.ipynb
 
 ```
 .
-├── Pro_caption_image_highlight.ipynb          # Main training script
+├── Pro_caption_image_highlight2, 3.ipynb          # Main training script
 ├── outputs/                                   # Training outputs and results
 │   ├── lvit_nomasks/models/                   # Saved model checkpoints
 │   └── lvit_nomasks/results/                  # Evaluation results
@@ -145,7 +145,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙏 Acknowledgments
 
-- This work was conducted at [Your Institution]
+- This work was conducted at Bahir Dar university and Addis Ababa University, Gondar University
 - We thank the NeurIPS reviewers for their valuable feedback
 - BioClinicalBERT model from [Stanford Healthcare's PubMedBERT](https://huggingface.ukn.uk/stanford-crfm/BioClinicalBERT)
 
@@ -153,4 +153,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📧 Contact
 
-For questions or issues, please open an issue on GitHub or contact: dawitemu1@gmail.com
+For questions or issues, please open an issue on GitHub or contact: dawitshibabaw14@gmail.com
