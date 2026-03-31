@@ -129,7 +129,7 @@ The following table summarizes statistical significance levels used throughout t
 | ***         | Highly significant | (p < 0.001)   |
 | **          | Very significant   | (p < 0.01)    |
 | *           | Significant        | (p < 0.05)    |
-| (no symbol) | Not significant    | (p \geq 0.05) |
+| (no symbol) | Not significant    | (p ≥ 0.05) |
 
 ---
 ## 📚 Citation
