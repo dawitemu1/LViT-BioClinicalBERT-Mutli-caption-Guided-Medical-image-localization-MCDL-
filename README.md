@@ -132,35 +132,4 @@ The following table summarizes statistical significance levels used throughout t
 | (no symbol) | Not significant    | (p ≥ 0.05) |
 
 ---
-## 📚 Citation
----
-If you use this code or find our work helpful, please cite our paper:
 
-```bibtex
-@inproceedings{Dawit2026lvit-BioClincalBERT,
-  title={Weakly Supervised Multi-Caption Guided Medical Image Localization with BioClinicalBERT},
-  author={Dawit, Vukosi, Tesfa, Munir},
-  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
-  year={2026}
-}
-```
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- This work was conducted at Bahir Dar university and Addis Ababa University, Gondar University
-- We thank the NeurIPS reviewers for their valuable feedback
-- BioClinicalBERT model from [Stanford Healthcare's PubMedBERT](https://huggingface.ukn.uk/stanford-crfm/BioClinicalBERT)
-
----
-
-## 📧 Contact
-
-For questions or issues, please open an issue on GitHub or contact: dawitshibabaw14@gmail.com
