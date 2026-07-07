@@ -6,7 +6,7 @@
 
 > **Weakly Supervised Multi-Caption Guided Medical Image Localization with BioClinicalBERT**
 
-This repository contains the official implementation of our NeurIPS 2026 paper on weakly supervised medical image localization using multi-caption guidance and BioClinicalBERT.
+This repository contains the official implementation on weakly supervised medical image localization using multi-caption guidance and BioClinicalBERT.
 
 ---
 
