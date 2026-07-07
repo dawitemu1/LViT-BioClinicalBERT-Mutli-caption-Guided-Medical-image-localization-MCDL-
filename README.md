@@ -140,7 +140,7 @@ If you use this code or find our work helpful, please cite our paper:
 @inproceedings{Dawit2026lvit-BioClincalBERT,
   title={Weakly Supervised Multi-Caption Guided Medical Image Localization with BioClinicalBERT},
   author={Dawit, Vukosi, Tesfa, Munir},
-  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  booktitle={},
   year={2026}
 }
 ```
@@ -156,7 +156,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 🙏 Acknowledgments
 
 - This work was conducted at Bahir Dar university and Addis Ababa University, Gondar University
-- We thank the NeurIPS reviewers for their valuable feedback
+- We thank the reviewers for their valuable feedback
 - BioClinicalBERT model from [Stanford Healthcare's PubMedBERT](https://huggingface.ukn.uk/stanford-crfm/BioClinicalBERT)
 
 ---
